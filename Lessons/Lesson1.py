@@ -7,17 +7,17 @@ name = input ("Ввеите ваше имя: ")
 age = int(input('Введите ваш возраст: '))
 print('Меня зовут ', name, 'мне', age, 'лет')
 #Задание № 2
- sec = int(input("Введите время в секундах: "))
- m, s = divmod(sec, 60)
- h, m = divmod(m, 60)
- print(f'{h:d}:{m:02d}:{s:02d}')
+sec = int(input("Введите время в секундах: "))
+m, s = divmod(sec, 60)
+h, m = divmod(m, 60)
+print(f'{h:02d}:{m:02d}:{s:02d}')
 #Задание № 3
- num = int(input("Введите целое число:"))
- n = str(num)
- n1 = n + n
- n2 = n + n + n
- rez = num + int(n1) + int(n2)
- print ('результат равен: ', rez)
+num = int(input("Введите целое число:"))
+n = str(num)
+n1 = n + n
+n2 = n + n + n
+rez = num + int(n1) + int(n2)
+print ('результат равен: ', rez)
 #Задание № 4
 num = abs(int(input("Введите целое положительное число ")))
 max = num % 10
