@@ -82,8 +82,8 @@ def my_sum():
             else:
                 res = res + int(number[el])
         sum_res = sum_res + res
-        print(f'Current sum is {sum_res}')
-    print(f'Your final sum is {sum_res}')
+        print(f'Сумма чисел равна {sum_res}')
+    print(f'Итоговая сумма равна {sum_res}')
 my_sum()
 
 ''' Задание 6
