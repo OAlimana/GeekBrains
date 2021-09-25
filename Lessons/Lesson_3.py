@@ -94,8 +94,21 @@ my_sum()
 Необходимо использовать написанную ранее функцию int_func().
 '''
 
-def int_func (*args):
+def int_func(*args):
     word = input("Введите любое слово ")
     print(word.title())
     return
 int_func()
+
+# Задание 5 другой вариант
+num_sum = 0
+flag = True
+while flag:
+    nums = input("Введите строку чисел, для завершения введите ! : ")
+    nums = nums.split(" ")
+    for el in nums:
+        if el == "!":
+            flag = False
+            break
+        num_sum = num_sum+int(el)
+    print(num_sum)
