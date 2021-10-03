@@ -99,9 +99,7 @@ with open('subjects.txt', 'r', encoding='UTF-8-sig') as init_f:
         for r, i in enumerate(num):
             x = num[r].split("(")
             if len(x) > 1:
-                #print(x[0])
                 hours += int(x[0])
-                #subj[subject] = rrr + ccc + int(lab)
         print(f'Общее количество часов по предмету {subject} составляет {hours} часов')
 
 ''' Задание 7
